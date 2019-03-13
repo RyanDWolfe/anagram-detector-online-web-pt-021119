@@ -6,7 +6,7 @@ class Anagram
     @word = word
   end
 
-  def matches
+  def match
     word.match("/[word]/")
   end
 
